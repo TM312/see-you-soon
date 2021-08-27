@@ -4,9 +4,26 @@
             <div class="sm:mx-auto sm:w-full sm:max-w-md flex justify-center">
                 <transition name="fade">
                     <button
+                        type="button"
                         v-show="!clicked"
                         @click="clickButton"
-                        class="btn btn-outline btn-primary no-animation"
+                        class="
+                            inline-flex
+                            items-center
+                            px-4
+                            py-2
+                            border border-transparent
+                            text-sm
+                            font-medium
+                            rounded-md
+                            text-indigo-700
+                            bg-indigo-300
+                            hover:bg-indigo-400
+                            focus:outline-none
+                            focus:ring-2
+                            focus:ring-offset-2
+                            focus:ring-indigo-600
+                        "
                     >
                         When is soon ?
                     </button>
