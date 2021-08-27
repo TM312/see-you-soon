@@ -5,7 +5,7 @@
         >
             <div class="bg-gray-50 shadow rounded-lg overflow-hidden sm:p-6">
                 <dt class="text-sm font-medium text-sky-500 truncate">
-                    Dec 3, 2021 20:23:00 GMT +08:00
+                    Dec 3, 2021 13:55:00 GMT +08:00
                 </dt>
                 <dd class="mt-1 text-3xl font-semibold text-gray-900">
                     &#128747; SIN
@@ -24,7 +24,7 @@
                 "
             >
                 <dt class="text-sm font-medium text-sky-500 truncate">
-                    Dec 3, 2021 20:23:00 GMT +02:00
+                    Dec 3, 2021 20:30:00 GMT +02:00
                 </dt>
                 <dd class="mt-1 text-3xl font-semibold text-gray-900">
                     &#128748; FRA
