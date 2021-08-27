@@ -3,7 +3,17 @@
         <dl
             class="grid grid-cols-1 gap-5 sm:grid-cols-2 mx-auto max-w-2xl py-5"
         >
-            <div class="bg-gray-50 shadow rounded-lg overflow-hidden sm:p-6">
+            <div
+                class="
+                    px-4
+                    py-5
+                    bg-gray-50
+                    shadow
+                    rounded-lg
+                    overflow-hidden
+                    sm:p-6
+                "
+            >
                 <dt class="text-sm font-medium text-sky-500 truncate">
                     Dec 3, 2021 13:55:00 GMT +08:00
                 </dt>
