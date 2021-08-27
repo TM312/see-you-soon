@@ -51,7 +51,7 @@
         methods: {
             showRemaining() {
                 const timer = setInterval(() => {
-                    const eta = new Date(2021, 12, 3, 10, 10, 10, 10).getTime();
+                    const eta = new Date(2021, 12, 3, 20, 30, 00, 00).getTime();
 
                     const now = new Date().getTime();
 
