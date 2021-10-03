@@ -3,7 +3,7 @@
         <menu-banner />
         <div class="body min-h-screen flex flex-col py-10">
             <div class="sm:mx-auto sm:w-full sm:max-w-md flex">
-                <fieldset class="space-y-5">
+                <fieldset class="space-y-7">
                     <div
                         v-for="event in events"
                         :key="event.public_id"
@@ -32,9 +32,17 @@
                                 class="font-medium text-gray-700"
                                 v-text="event.name"
                             />
+                            <span class="ml-2 space-x-1">
+                                <badge-tag
+                                    v-for="(tag, i) in event.tags"
+                                    :key="i"
+                                    :name="tag"
+                                    color="gray"
+                                />
+                            </span>
                             <p
                                 id="offers-description"
-                                class="text-gray-500"
+                                class="mt-2 text-gray-500"
                                 v-text="event.description"
                             />
                         </div>

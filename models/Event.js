@@ -14,7 +14,8 @@ export default class Event extends Model {
         public_id: this.string(''),
         name: this.string(''),
         description: this.string(null).nullable(),
-        checked: this.boolean(false)
+        checked: this.boolean(false),
+        tags: this.attr([])
       }
     }
 }
