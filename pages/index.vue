@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="body min-h-screen flex flex-col justify-center py-10">
+        <div class="body min-h-screen flex flex-col justify-center pb-32">
             <div class="sm:mx-auto sm:w-full sm:max-w-md flex justify-center">
                 <transition name="fade">
                     <button
@@ -28,6 +28,7 @@
                         When is soon ?
                     </button>
                 </transition>
+
                 <transition name="fade">
                     <countdown
                         v-show="next"
@@ -53,8 +54,8 @@
         methods: {
             async clickButton() {
                 this.clicked = true;
-                this.$emit("clicked");
-                await this.sleep(5);
+                this.$nuxt.$emit("clicked");
+                await this.sleep(3);
                 this.next = true;
             },
         },

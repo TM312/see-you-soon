@@ -1,5 +1,5 @@
 <template>
-    <section class="text-6xl text-gray-500">
+    <section :class="this.countdownColor" class="text-6xl">
         <div class="mr-6 relative">
             {{ days }}
             <div class="label text-sm absolute bottom">days</div>
@@ -32,6 +32,17 @@
             };
         },
         computed: {
+            countdownColor() {
+                if (this.days < 7) {
+                    return "text-orange-500";
+                } else if (this.days < 4) {
+                    return "text-green-500";
+                } else if (this.days < 7) {
+                    return "text-green-700";
+                } else {
+                    return "text-gray-500";
+                }
+            },
             _seconds: () => 1000,
             _minutes() {
                 return this._seconds * 60;
@@ -51,8 +62,12 @@
         methods: {
             showRemaining() {
                 const timer = setInterval(() => {
+                    // const eta = new Date(
+                    //     Date.UTC(2021, 11, 3, 18, 30, 0, 0)
+                    // ).getTime();
+
                     const eta = new Date(
-                        Date.UTC(2021, 11, 3, 18, 30, 0, 0)
+                        Date.UTC(2021, 9, 9, 8, 23, 0, 0)
                     ).getTime();
 
                     const now = new Date().getTime();
