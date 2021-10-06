@@ -1,6 +1,6 @@
 <template>
     <span
-        :class="`bg-${color}-300 text-${color}-500`"
+        :class="`bg-${color}-300 text-${color}-500 hover:bg-${color}-100 hover:text-${color}-600`"
         class="
             uppercase
             inline-flex
