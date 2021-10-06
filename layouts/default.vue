@@ -1,7 +1,6 @@
 <template>
     <div class="bg-gray-300">
         <navbar />
-
         <Nuxt />
     </div>
 </template>
@@ -28,10 +27,10 @@
 
 
 <style>
-    .body {
-        height: 100vh;
-        margin: 0;
-    }
+    /* .body {
+            height: 100vh;
+            margin: 0;
+        } */
 
     .fade-enter-active,
     .fade-leave-active {
