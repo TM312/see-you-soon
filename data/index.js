@@ -101,5 +101,19 @@ export default async function data() {
       checked: false,
       tags: ['explore']
     },
+    {
+      public_id: 'beach_bar',
+      name: 'Sentosa Beach Bar',
+      description: 'We. At the beach. Cocktails. In October.',
+      checked: false,
+      tags: ['beach']
+    },
+    {
+      public_id: 'high_tea',
+      name: "High Tea with Alexis' mum",
+      description: 'Enjoy tea and a nice atmosphere.',
+      checked: false,
+      tags: ['explore']
+    },
   ]
 }
