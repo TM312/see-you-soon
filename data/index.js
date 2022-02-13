@@ -20,7 +20,7 @@ export default async function data() {
     {
       public_id: 'manhattan',
       name: 'Manhattan',
-      description: 'Surprise surprise on Wednesday, October 20th, 8pm.',
+      description: 'Surprise surprise.',
       checked: false,
       tags: ['secret']
     },
@@ -95,6 +95,13 @@ export default async function data() {
       tags: ['people']
     },
     {
+      public_id: 'esther',
+      name: 'Hang out with Esther',
+      description: "Drinks with the youngest of the Tam laywers.",
+      checked: false,
+      tags: ['people']
+    },
+    {
       public_id: 'pottery_shop',
       name: 'Fine pottery art',
       description: 'A gem of fine arts.',
@@ -114,6 +121,20 @@ export default async function data() {
       description: 'Enjoy tea and a nice atmosphere.',
       checked: false,
       tags: ['explore']
+    },
+    {
+      public_id: 'toastbox',
+      name: "Toastbox",
+      description: 'Try a traditional not too exotic Singaporean breakfast',
+      checked: false,
+      tags: ['food']
+    },
+    {
+      public_id: 'dim-sum',
+      name: "Red Star Dim Sum",
+      description: 'A fascinating Chinese restaurant experience',
+      checked: false,
+      tags: ['food']
     },
   ]
 }
