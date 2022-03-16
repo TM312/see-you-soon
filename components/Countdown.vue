@@ -67,7 +67,7 @@
                     // ).getTime();
 
                     const eta = new Date(
-                        Date.UTC(2021, 9, 9, 8, 23, 0, 0)
+                        Date.UTC(2022, 2, 26, 1, 23, 0, 0)
                     ).getTime();
 
                     const now = new Date().getTime();
