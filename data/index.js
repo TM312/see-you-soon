@@ -136,5 +136,12 @@ export default async function data() {
       checked: false,
       tags: ['food']
     },
+    {
+      public_id: 'level-33',
+      name: "Level 33",
+      description: 'The highest brewery in the world',
+      checked: false,
+      tags: ['drinks']
+    },
   ]
 }
