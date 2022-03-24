@@ -67,7 +67,7 @@
                     // ).getTime();
 
                     const eta = new Date(
-                        Date.UTC(2022, 2, 26, 1, 23, 0, 0)
+                        Date.UTC(2022, 2, 1, 1, 12, 50, 0)
                     ).getTime();
 
                     const now = new Date().getTime();
@@ -81,6 +81,7 @@
                     this.seconds = Math.floor(
                         (distance % this._minutes) / this._seconds
                     );
+
 
                     // If the count down is finished, write some text
                     if (distance < 0) {

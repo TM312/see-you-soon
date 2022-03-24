@@ -30,10 +30,22 @@
                 </transition>
 
                 <transition name="fade">
-                    <countdown
-                        v-show="next"
-                        class="flex justify-center content-center"
-                    />
+                    <div>
+                        <countdown
+                            v-show="next && showTimer"
+                            class="flex justify-center content-center"
+                            @arrived="showTimer = false"
+                        />
+                        <div
+                            v-show="next && !showTimer"
+                            class="flex justify-center text-center uppercase text-3xl text-indigo-900"
+                        >
+                        WELCOME TO 🇸🇬
+                        
+                        <div><img class="mt-16" src="~assets/gif/welcome.gif" width="384" height="248" /></div>
+                        </div>
+                    </div>
+
                 </transition>
             </div>
         </div>
@@ -49,6 +61,7 @@
             return {
                 clicked: false,
                 next: false,
+                showTimer: true
             };
         },
         methods: {
