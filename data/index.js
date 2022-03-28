@@ -4,14 +4,14 @@
 export default async function data() {
   return [
     {
-      public_id: 'bak kut teh',
+      public_id: 'bak-kut-teh',
       name: 'Bak Kut Teh',
       description: 'A typical and comforting breakfast – herbal and soupy – that comes with tea. Especially suited for a weekends.',
       checked: false,
       tags: ['food']
     },
     {
-      public_id: 'henderson waves',
+      public_id: 'henderson-waves',
       name: 'Henderson Waves',
       description: "Let's take a walk in the evening with stunning views on top of a forest.",
       checked: false,
@@ -32,21 +32,21 @@ export default async function data() {
       tags: ['explore']
     },
     {
-      public_id: 'art science',
+      public_id: 'art-science',
       name: 'Art Science Museum',
       description: 'Orchestral Manoeuvres: See Sound. Feel Sound. Be Sound.',
       checked: false,
       tags: ['explore', 'museum']
     },
     {
-      public_id: 'gajah gallery',
+      public_id: 'gajah-gallery',
       name: 'Gajah Art Gallery',
       description: '5th Passage: In Search of Lost Time.',
       checked: false,
       tags: ['museum', 'explore']
     },
     {
-      public_id: 'mexican_mojitos',
+      public_id: 'mexican-mojitos',
       name: 'Mexican Mojitos',
       description: 'We are going to explore Mexican food & drink culture on Friday, October 15th, 6pm',
       checked: false,
@@ -60,28 +60,28 @@ export default async function data() {
       tags: ['food', 'explore']
     },
     {
-      public_id: 'east_coast',
+      public_id: 'east-coast',
       name: 'East Coast',
       description: 'A fantastic bike tour along the coast and as far as you can.',
       checked: false,
       tags: ['bike tour', 'explore']
     },
     {
-      public_id: 'the_projector',
+      public_id: 'the-projector',
       name: 'The Projector',
       description: 'Cinema indie culture.',
       checked: false,
       tags: ['movies']
     },
     {
-      public_id: 'fort_canning',
+      public_id: 'fort-canning',
       name: 'Fort Canning',
       description: 'Peaceful hiking and fantastic views – also: Next to where we work.',
       checked: false,
       tags: ['hiking', 'explore']
     },
     {
-      public_id: 'bay_jogging',
+      public_id: 'bay-jogging',
       name: 'Bay Jogging',
       description: 'Get the best view on Singapore, at night, while jogging, bring your shoes.',
       checked: false,
@@ -102,21 +102,21 @@ export default async function data() {
       tags: ['people']
     },
     {
-      public_id: 'pottery_shop',
+      public_id: 'pottery-shop',
       name: 'Fine pottery art',
       description: 'A gem of fine arts.',
       checked: false,
       tags: ['explore']
     },
     {
-      public_id: 'beach_bar',
+      public_id: 'beach-bar',
       name: 'Sentosa Beach Bar',
       description: 'We. At the beach. Cocktails. In October.',
       checked: false,
       tags: ['beach']
     },
     {
-      public_id: 'high_tea',
+      public_id: 'high-tea',
       name: "High Tea with Alexis' mum",
       description: 'Enjoy tea and a nice atmosphere.',
       checked: false,
@@ -140,6 +140,13 @@ export default async function data() {
       public_id: 'level-33',
       name: "Level 33",
       description: 'The highest brewery in the world',
+      checked: false,
+      tags: ['drinks']
+    },
+    {
+      public_id: 'gillman-barracks',
+      name: "Gillman Barracks & Handlebar",
+      description: 'Go by bike, some art, and burgers',
       checked: false,
       tags: ['drinks']
     },
