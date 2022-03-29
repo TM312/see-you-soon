@@ -150,5 +150,12 @@ export default async function data() {
       checked: false,
       tags: ['drinks']
     },
+    {
+      public_id: 'marina-barrage',
+      name: "Marina Barrage",
+      description: 'Rooftop view at sunset kites flying',
+      checked: false,
+      tags: ['picnic']
+    },
   ]
 }
